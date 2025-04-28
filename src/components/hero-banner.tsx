@@ -20,9 +20,9 @@ const HeroBanner = () => {
 
     return (
         <div className='hero-gradient relative flex min-h-screen items-center'>
-            <div className='bg-grid-white/[0.05] absolute inset-0 bg-[size:60px_60px] opacity-20' />
-            <div className='relative z-10 container mx-auto px-4 py-32'>
-                <div className='grid grid-cols-1 items-center gap-12 lg:grid-cols-2'>
+            <div className='bg-grid-white/[0.05] absolute inset-0 z-50 bg-[size:60px_60px] opacity-20' />
+            <div className='relative z-50 container mx-auto px-4 py-32'>
+                <div className='z-50 grid grid-cols-1 items-center gap-12 lg:grid-cols-2'>
                     <motion.div
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -74,17 +74,16 @@ const HeroBanner = () => {
                             </div>
                         </div>
                     </motion.div>
-
-                    <motion.div
-                        initial={{ opacity: 0, scale: 0.9 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ duration: 0.5, delay: 0.2 }}
-                        className='relative hidden h-[400px] overflow-hidden rounded-lg shadow-2xl lg:block lg:h-[500px]'>
-                        <div className='from-primary/20 to-secondary/20 absolute inset-0 z-10 rounded-lg bg-gradient-to-br' />
-                        <div className="absolute inset-0 bg-[url('/images/hero-img.png')] bg-cover bg-center" />
-                    </motion.div>
                 </div>
             </div>
+            <motion.div
+                initial={{ opacity: 0, scale: 0.9 }}
+                animate={{ opacity: 1, scale: 1 }}
+                transition={{ duration: 0.5, delay: 0.2 }}
+                className='absolute top-0 right-0 z-0 hidden h-[472px] w-[100%] overflow-hidden shadow-2xl lg:block lg:h-[670px]'>
+                <div className='from-primary/60 to-secondary/60 absolute inset-0 z-10 w-[48%] bg-gradient-to-br' />
+                <div className="absolute inset-0 z-0 bg-[url('/images/hero-banner.jpg')] bg-cover bg-center" />
+            </motion.div>
 
             <div className='absolute right-0 bottom-10 left-0 flex justify-center'>
                 <Link href='#services' className='text-primary/80 hover:text-primary transition-colors'>

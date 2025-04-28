@@ -8,7 +8,7 @@ export default function AboutPage() {
     return (
         <div className='container mx-auto px-4 py-16 sm:px-6 lg:px-8'>
             <div className='mx-auto max-w-4xl'>
-                <h1 className='text-primary mb-8 text-center text-4xl font-bold'>About YohaTech</h1>
+                <h1 className='text-destructive mb-8 text-center text-4xl font-bold'>About YohaTech</h1>
 
                 <div className='reveal mb-12'>
                     <p className='text-muted-foreground mb-6 text-lg'>
@@ -39,7 +39,7 @@ export default function AboutPage() {
                     </div>
                 </div>
 
-                <h2 className='text-primary reveal mb-8 text-center text-3xl font-bold'>Our Core Values</h2>
+                <h2 className='text-destructive reveal mb-8 text-center text-3xl font-bold'>Our Core Values</h2>
 
                 <div className='reveal mb-16 grid grid-cols-1 gap-6 md:grid-cols-2'>
                     <Card className='border-l-primary border-l-4'>
@@ -112,7 +112,7 @@ export default function AboutPage() {
                 </div>
 
                 <div className='reveal mb-16'>
-                    <h2 className='text-primary mb-8 text-center text-3xl font-bold'>Our Team</h2>
+                    <h2 className='text-destructive mb-8 text-center text-3xl font-bold'>Our Team</h2>
                     <p className='text-muted-foreground mb-6 text-center text-lg'>
                         YohaTech is powered by a diverse team of talented engineers, designers, and tech enthusiasts who
                         share a passion for innovation and excellence.

@@ -81,7 +81,7 @@ const ContactSection = () => {
             {/* Rest of the component remains the same */}
             <div className='container mx-auto px-4'>
                 <div className='reveal mb-16 text-center'>
-                    <h2 className='text-primary mb-4 text-3xl font-bold md:text-4xl'>Contact Us</h2>
+                    <h2 className='text-destructive mb-4 text-3xl font-bold md:text-4xl'>Contact Us</h2>
                     <p className='text-muted-foreground mx-auto max-w-3xl text-xl'>
                         Have a question or want to discuss a project? Get in touch with our team.
                     </p>
