@@ -1,8 +1,6 @@
 # Yohatech
 
-### Chalenge Name: Développement et conception d’un site web pour YohaTech
-
-Official website for **YohaTech**, a Tunisian startup specializing in AI, Robotics, Custom Electronics, and Smart Home IoT solutions.  
+Website for **YohaTech**, a Tunisian startup specializing in AI, Robotics, Custom Electronics, and Smart Home IoT solutions.  
 This project is built using **Next.js** with **npm** as the package manager.
 
 ---
